@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: pink;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: hotpink;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    color: black;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header ul li {
+    display: inline;
+}
+
+header ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+.hero {
+    background-image: url(./images/pink\ akatsuki.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.about {
+    text-align: left;
+}
+
+.text-left {
+    text-align: center;
+}
+
+.my {
+    text-align: left;
+}
+
+.work {
+    text-align: center;
+}
+
+.me {
+    text-align: left;
+}
+
+.contact {
+    text-align: center;
+}

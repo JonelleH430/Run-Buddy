@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jonelle Harris Portfolio</title>
-    <link ref="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 </head>
 <body>
 
     <header>
         <h1>Jonelle Harris</h1>
+
         <nav>
         <ul>
             <li>
@@ -26,11 +27,19 @@
         </nav>
     </header>
 
-    <div class="hero"></div>
+    <div class="hero">
+        <img src="images/Moi.jpg"
+        style="position:absolute;
+        height: 390px;
+        top: 5px;
+        left: 20px;">
+        </div>
+
    
-    <div>
+    <div id="about me" class="about me">
         <h2>About Me</h2>
-        <p>My name is Jonelle Harris and I am 22 years old. Before I got into tech, I initially pursued my previous "passion" in the arts by going 
+        <div class="about text-left">
+            <p>My name is Jonelle Harris and I am 22 years old. Before I got into tech, I initially pursued my previous "passion" in the arts by going 
             to an art school. When the pandemic took the world by storm and everywhere was locked down, I decided to explore my other interest in 
             computers and other technology and further develop my skills. I took a class learning skills and techniques within the IT industry and 
             while I was in the class I found that the tech field is where I'm most passionate in. I decided afterwards that I wanted to continue 
@@ -38,17 +47,24 @@
             my knowledge in coding as I ultimately decided to pursue a career in software development. I am currently taking a bootcamp course in 
             coding at the University of Toronto as I believe that with their knowledgeable staff and resources, they will help me reach my goals and
             aid me to my path to success.</p>
+        </div>
     </div>
 
-    <div>
+    <div id="my work" class="my">
         <h2>My Work</h2>
-        <a href="https://jonelleh430.github.io/Run-Buddy/">Run Buddy</a>
-        <img src="images/Run Buddy.png">
+        <div class="work">
+            <a href="https://jonelleh430.github.io/Run-Buddy/">Run Buddy</a>
+        <img src="images/Run Buddy.png"
+        style="position:relative;
+        height: 200px">
+        </div>
     </div>
 
-    <div>
+    <div id="contact me" class="me">
         <h2>Contact Me</h2>
-        <p>#: 647-236-0658 <a href="https://www.linkedin.com/in/jonelle-harris?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2F0UADS74S7O3L6nrd0cHcQ%3D%3D">LinkedIn</a> E-mail: jonelle.harris04@gmail.com </p>
+        <div class="contact">
+            <p>#: 647-236-0658 <a href="https://www.linkedin.com/in/jonelle-harris?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2F0UADS74S7O3L6nrd0cHcQ%3D%3D">LinkedIn</a> E-mail: jonelle.harris04@gmail.com </p>
+        </div>
     </div>
 </body>
 </html>
