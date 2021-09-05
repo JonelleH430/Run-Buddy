@@ -52,10 +52,20 @@ header ul li a {
 
 .about {
     text-align: left;
+    margin-top: 200px;
+    padding: 30px;
+    border: none;
+    padding-right: color: hotpink;
+    
 }
 
 .text-left {
     text-align: center;
+    margin: 20px;
+    padding: 30px;
+    height: 200px;
+    font-family:Verdana, Tahoma, sans-serif;
+    background-color: hotpink;
 }
 
 .my {
