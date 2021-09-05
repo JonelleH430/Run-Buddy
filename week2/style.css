@@ -55,31 +55,55 @@ header ul li a {
     margin-top: 200px;
     padding: 30px;
     border: none;
-    padding-right: color: hotpink;
-    
 }
 
 .text-left {
     text-align: center;
-    margin: 20px;
+    margin: auto;
     padding: 30px;
-    height: 200px;
-    font-family:Verdana, Tahoma, sans-serif;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    font-family: Verdana, Tahoma, sans-serif;
     background-color: hotpink;
+    box-shadow: 5px 5px 10px black;
 }
 
 .my {
     text-align: left;
+    margin-top: 200px;
+    padding: 30px;
+    border: none;
 }
 
 .work {
     text-align: center;
+    margin: auto;
+    width: 346px;
+    height: 200px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.work:hover {
+    background: lightpink;
+    color: lightpink;
+    border-radius: 15px;
+    text-shadow: none;
 }
 
 .me {
     text-align: left;
+    margin-top: 200px;
+    padding: 30px;
+    border: none;
 }
 
 .contact {
     text-align: center;
+    margin: auto;
+    width: 600px;
+    box-shadow: 5px 5px 10px black;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: hotpink;
+
 }
