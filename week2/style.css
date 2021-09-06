@@ -11,7 +11,8 @@ body {
 }
 
 header {
-    padding: 20px 35px;
+    margin: auto;
+    padding: 10px 25px;
     background-color: hotpink;
 }
 
@@ -19,7 +20,7 @@ header h1 {
     font-weight: bold;
     font-size: 36px;
     color: black;
-    margin: 0;
+    margin: 10px 15px;
     display: inline;
 }
 
@@ -30,6 +31,7 @@ header a {
 header nav {
     float: right;
     margin: 7px 0;
+    padding: 10px 15px;
 }
 
 header ul li {
@@ -48,6 +50,7 @@ header ul li a {
     background-size: cover;
     background-position: center;
     position: relative;
+    align-items: flex-start;
 }
 
 .about {
@@ -55,6 +58,7 @@ header ul li a {
     margin-top: 200px;
     padding: 30px;
     border: none;
+    font-size: 48px;
 }
 
 .text-left {
@@ -64,6 +68,7 @@ header ul li a {
     width: 600px;
     height: 400px;
     position: relative;
+    font-size: medium;
     font-family: Verdana, Tahoma, sans-serif;
     background-color: hotpink;
     box-shadow: 5px 5px 10px black;
@@ -74,6 +79,7 @@ header ul li a {
     margin-top: 200px;
     padding: 30px;
     border: none;
+    font-size: 48px;
 }
 
 .work {
@@ -105,6 +111,7 @@ header ul li a {
     margin-top: 200px;
     padding: 30px;
     border: none;
+    font-size: 48px;
 }
 
 .contact {
@@ -112,7 +119,61 @@ header ul li a {
     margin: auto;
     width: 600px;
     box-shadow: 5px 5px 10px black;
+    font-size: medium;
     font-family: Verdana, Tahoma, sans-serif;
     background-color: hotpink;
 
+}
+
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: auto;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding-bottom: 90px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: auto;
+        width: 100%;
+        justify-content: center;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    header {
+        padding-left: 1 00px;
+        width: 100%;
+    }
 }
