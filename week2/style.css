@@ -91,6 +91,15 @@ header ul li a {
     text-shadow: none;
 }
 
+.d-work{
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    width: 216px;
+    height: 200px;
+    box-shadow: 5px 5px 10px black;
+}
+
 .me {
     text-align: left;
     margin-top: 200px;
